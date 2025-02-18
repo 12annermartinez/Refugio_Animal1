@@ -3,12 +3,12 @@ package com.tecnm.morelia.itics.poo.AnnetJME.Refugiodeanimales;
 import java.util.Scanner;
 
 public class Persona {
-    private final int solicitud;
+    private  int solicitud;
     private String identificacion;
     private String registro;
     private int edad;
     private String nombrepe;
-    private int telefono;
+    private float telefono;
         public Persona(String identificacion, String registro, int edad, String nombrepe, int solicitud, String direccion, int telefono) {
             this.identificacion = identificacion;
             this.registro = registro;
@@ -26,13 +26,17 @@ public class Persona {
         }
         public void capturardatos() {
             Scanner sc = new Scanner(System.in);
-            System.out.println("¿cuál es su identificación?: ");
-            this.identificacion = sc.nextLine();
+            System.out.println("¿cuál es su identificación, número al reverso del INE?: ");
+            this.identificacion = sc.next();
+
             System.out.println("El número de su registro es: ");
-            this.registro = sc.nextLine();
+            this.registro = sc.next();
+
             System.out.println("La edad del adoptante es: ");
             this.edad = sc.nextInt();
+
             System.out.println("El número de su telefono es: ");
+            this.telefono = sc.nextFloat();
         }
 
         void serAdoptado(){
