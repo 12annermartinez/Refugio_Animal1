@@ -33,19 +33,25 @@ public class Animal {
             //declarar mi clase scanner
             Scanner sc=new Scanner(System.in);
             System.out.println("Dime el tipo de animal");
-            this.tipo=sc.nextLine();
+            this.tipo=sc.next();
+
             System.out.println("Dime el peso: ");
             this.peso=sc.nextInt();
+
             System.out.println("Dime la raza del animal: ");
-            this.raza=sc.nextLine();
+            this.raza=sc.next();
+
             System.out.println("Dime el tamano: ");
             this.tamano=sc.nextDouble();
+
             System.out.println("Dime el color: ");
-            this.color=sc.nextLine();
+            this.color=sc.next();
+
             System.out.println("Dime el edad: ");
             this.edad=sc.nextInt();
+
             System.out.println("Dime el nombre: ");
-            this.nombre=sc.nextLine();
+            this.nombre=sc.next();
     }
         void seradoptado() {
         }
