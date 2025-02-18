@@ -22,9 +22,9 @@ public class Animal {
         }
     public void mostrar() {
             System.out.println("Tipo de animal: " + tipo);
-            System.out.println("Peso del animal: " + peso);
+            System.out.println("Peso del animal en kilogramos: " + peso);
             System.out.println("Raza del animal es: : " + raza);
-            System.out.println("Tamano: " + tamano);
+            System.out.println("Longitud del animal: " + tamano);
             System.out.println("Color: " + color);
             System.out.println("Edad: " + edad);
             System.out.println("Nombre del animal: " + nombre);
@@ -35,13 +35,13 @@ public class Animal {
             System.out.println("Dime el tipo de animal");
             this.tipo=sc.next();
 
-            System.out.println("Dime el peso: ");
+            System.out.println("Dime el peso del animal en kilogramos: ");
             this.peso=sc.nextInt();
 
             System.out.println("Dime la raza del animal: ");
             this.raza=sc.next();
 
-            System.out.println("Dime el tamano: ");
+            System.out.println("Dime el tamaño de la longitud del animal en centimetros: ");
             this.tamano=sc.nextDouble();
 
             System.out.println("Dime el color: ");
