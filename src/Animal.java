@@ -2,7 +2,7 @@ package com.tecnm.morelia.itics.poo.AnnetJME.Refugiodeanimales;
 
 import java.util.Scanner;
 
-;
+
 public class Animal {
     private String tipo;
     private int peso;
@@ -18,6 +18,7 @@ public class Animal {
             this.tamano = tamamo;
             this.color = color;
             this.edad = edad;
+            this.nombre = nombre;
         }
     public void mostrar() {
             System.out.println("Tipo de animal: " + tipo);
@@ -26,6 +27,7 @@ public class Animal {
             System.out.println("Tamano: " + tamano);
             System.out.println("Color: " + color);
             System.out.println("Edad: " + edad);
+            System.out.println("Nombre del animal: " + nombre);
     }
     public void capturardatos(){
             //declarar mi clase scanner
@@ -40,6 +42,10 @@ public class Animal {
             this.tamano=sc.nextDouble();
             System.out.println("Dime el color: ");
             this.color=sc.nextLine();
+            System.out.println("Dime el edad: ");
+            this.edad=sc.nextInt();
+            System.out.println("Dime el nombre: ");
+            this.nombre=sc.nextLine();
     }
         void seradoptado() {
         }
@@ -47,5 +53,5 @@ public class Animal {
         }
         void serevaluad0(){
         }
-    };
+    }
 
