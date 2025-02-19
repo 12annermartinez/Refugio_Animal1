@@ -1,7 +1,9 @@
-package com.tecnm.morelia.itics.poo.AnnetJME.Refugiodeanimales;;
+package com.tecnm.morelia.itics.poo.AnnetJME.Refugiodeanimales;
+import com.tecnm.morelia.itics.poo.AnnetJME.Refugiodeanimales.Color;
 public class Main {
+
     public static void main(String[] args) {
-        com.tecnm.morelia.itics.poo.AnnetJME.Refugiodeanimales.Animal obj1 = new com.tecnm.morelia.itics.poo.AnnetJME.Refugiodeanimales.Animal("perro", 25, "Husky", 1.50, "Negro", 4, "Rino" );
+        com.tecnm.morelia.itics.poo.AnnetJME.Refugiodeanimales.Animal obj1 = new com.tecnm.morelia.itics.poo.AnnetJME.Refugiodeanimales.Animal("perro", 25, "Husky", 1.50, 2, 4, "Rino" );
         obj1.capturardatos();
         obj1.mostrar();
         com.tecnm.morelia.itics.poo.AnnetJME.Refugiodeanimales.Persona obj2= new com.tecnm.morelia.itics.poo.AnnetJME.Refugiodeanimales.Persona("adoptante", "datos personales", 18, "Annet Martínez Espinosa", 1234, "jorge orozco #9 uruapan", 45212);
