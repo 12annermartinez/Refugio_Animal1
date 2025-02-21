@@ -1,4 +1,9 @@
 package com.tecnm.morelia.itics.poo.AnnetJME.Refugiodeanimales;
+/**
+ * Esta clase, crea el tratamiento, que llevará la clase animal, en ella se mencionan medicamentos, estado del animal, y elementos necesarios.
+ * @autor : AnnetMartínez
+ * @version : 03/03/2025/A
+ */
 public class Tratamiento {
     private String cartillavacunacion;
     private String medicacion;

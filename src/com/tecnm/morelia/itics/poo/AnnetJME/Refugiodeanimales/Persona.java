@@ -1,7 +1,11 @@
 package com.tecnm.morelia.itics.poo.AnnetJME.Refugiodeanimales;
 
 import java.util.Scanner;
-
+/**
+ * Esta clase, crea a la persona, la cual interactura con clases (como Animal) y objetos.
+ * @autor : AnnetMartínez
+ * @version : 03/03/2025/A
+ */
 public class Persona {
     private  int solicitud;
     private String identificacion;

@@ -1,6 +1,11 @@
 package com.tecnm.morelia.itics.poo.AnnetJME.Refugiodeanimales;
 import java.util.Scanner;
-
+/**
+ * Esta clase, crea al Animal, elemento escencial para el funcionamiento de un refugio de animales, en ella se hablan de diversos tipos de valores.
+ * Se le solicitan las usuario y se muestran de igual manera.
+ * @autor : AnnetMartínez
+ * @version : 03/03/2025/A
+ */
 public class Animal {
     private String tipo;
     private int peso;
