@@ -1,7 +1,6 @@
 package com.tecnm.morelia.itics.poo.AnnetJME.Refugiodeanimales;
-
+import com.tecnm.morelia.itics.poo.AnnetJME.Refugiodeanimales.Color;
 import java.util.Scanner;
-
 
 public class Animal {
     private String tipo;
@@ -50,8 +49,6 @@ public class Animal {
             System.out.println("Dime el nombre: ");
             this.nombre=sc.next();
 
-            System.out.println("Dime el color: ");
-            this.color=sc.next();
     }
         void seradoptado() {
         }
