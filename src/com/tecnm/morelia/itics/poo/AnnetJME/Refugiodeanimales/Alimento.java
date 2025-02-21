@@ -14,7 +14,7 @@ public class Alimento {
         System.out.println("La marca de comida es: " + marca);
         System.out.println("El costo del producto es= " +costo);
         System.out.println("La comida es para la especie = " +especie);
-        System.out.println("La cantidad = " + cantidad);
+        System.out.println("La cantidad es = " + cantidad);
 
     }
     void Alimentaranimal(){

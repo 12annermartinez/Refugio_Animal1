@@ -26,7 +26,7 @@ public class Persona {
         }
         public void capturardatos() {
             Scanner sc = new Scanner(System.in);
-            System.out.println("¿cuál es su identificación, adoptante o trabajador: ");
+            System.out.println("¿cuál es su identificacióon, adoptante o trabajador: ");
             this.identificacion = sc.next();
 
             System.out.println("El número de su registro es: ");

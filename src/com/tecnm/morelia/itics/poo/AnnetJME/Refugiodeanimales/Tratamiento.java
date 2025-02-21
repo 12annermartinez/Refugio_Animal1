@@ -13,7 +13,7 @@ public class Tratamiento {
 
     public void mostrar() {
         System.out.println("su cartilla de vacunación se encuentra en estado: " + cartillavacunacion);
-        System.out.println("Se encuentra en medicación de : " + medicacion);
+        System.out.println("Se encuentra en medicación de tipo : " + medicacion);
         System.out.println("su historial es:  " + historial);
         System.out.println("el estado de salud es:  " + estadosalud);
     }
