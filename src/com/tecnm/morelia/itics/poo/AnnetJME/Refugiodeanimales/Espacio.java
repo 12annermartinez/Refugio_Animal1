@@ -1,6 +1,8 @@
 package com.tecnm.morelia.itics.poo.AnnetJME.Refugiodeanimales;
 public class Espacio {
     private float tamanoedificio;
-    private float tamano;
+    private String dirección;
+    private int nojaulas;
+
 
 }

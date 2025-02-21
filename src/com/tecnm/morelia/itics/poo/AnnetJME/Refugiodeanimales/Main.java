@@ -1,5 +1,5 @@
 package com.tecnm.morelia.itics.poo.AnnetJME.Refugiodeanimales;
-import com.tecnm.morelia.itics.poo.AnnetJME.Refugiodeanimales.Color;
+
 public class Main {
 
     public static void main(String[] args) {

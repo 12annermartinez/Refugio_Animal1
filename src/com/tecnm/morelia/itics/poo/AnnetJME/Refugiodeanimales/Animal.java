@@ -1,5 +1,4 @@
 package com.tecnm.morelia.itics.poo.AnnetJME.Refugiodeanimales;
-import com.tecnm.morelia.itics.poo.AnnetJME.Refugiodeanimales.Color;
 import java.util.Scanner;
 
 public class Animal {
