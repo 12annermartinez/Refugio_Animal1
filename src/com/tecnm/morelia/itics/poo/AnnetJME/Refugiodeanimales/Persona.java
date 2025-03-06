@@ -42,12 +42,18 @@ public class Persona {
             System.out.println("El número de su telefono es: ");
             this.telefono = sc.nextFloat();
         }
-
-        void serAdoptado(){
+    public void adoptarAnimal(Animal animal) {
+        // Si el animal no ha sido adoptado y la persona no lo ha adoptado aún
+        if (!animal.adoptado) {
+            animal.adoptado = true;
+            animalesAdoptados.add(animal);
+            System.out.println(nombrepe + " ha adoptado a " + animal.nombrepe + " exitosamente.");
+        } else {
+            System.out.println(animal.nombre + " ya ha sido adoptado por alguien más.");
         }
-        void rechazarAdoptado(){
-
-        }
+    }
+    }
+        public void solicitarAdopcion() {}
 
 }
 

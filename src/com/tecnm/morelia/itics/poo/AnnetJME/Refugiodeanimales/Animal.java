@@ -13,6 +13,7 @@ public class Animal {
     private double tamano;
     private int edad;
     private String nombre;
+    private boolean adoptado;
     private com.tecnm.morelia.itics.poo.AnnetJME.Refugiodeanimales.Color color;
         public Animal(String tipo, int peso, String raza, double tamamo, int edad, String nombre, Color color){
             this.tipo = tipo;
@@ -22,6 +23,7 @@ public class Animal {
             this.edad = edad;
             this.nombre = nombre;
             this.color= color;
+            this.adoptado = false;
         }
     public void mostrar() {
             System.out.println("Tipo de animal: " + tipo);
