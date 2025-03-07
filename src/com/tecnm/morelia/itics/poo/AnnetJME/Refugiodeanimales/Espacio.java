@@ -1,6 +1,6 @@
 package com.tecnm.morelia.itics.poo.AnnetJME.Refugiodeanimales;
 /**
- * Esta clase, crea el espacio, en donde se mencionan los elementos que conforman.
+ * Esta clase, crea el espacio, en donde se mencionan los elemeentos que conforman.
  * @autor : AnnetMartínez
  * @version : 03/03/2025/A
  */

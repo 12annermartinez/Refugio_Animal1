@@ -3,7 +3,7 @@ package com.tecnm.morelia.itics.poo.AnnetJME.Refugiodeanimales;
  * Esta es la clase principal, en donde se crearon los objetos.
  * Se capturan y se muestran los datos solicitados a los usuarios.
  * @autor : AnnetMartínez
- * @version : 03/03/2025/A
+ * @version : 07/03/2025/A
  */
 public class Main {
 

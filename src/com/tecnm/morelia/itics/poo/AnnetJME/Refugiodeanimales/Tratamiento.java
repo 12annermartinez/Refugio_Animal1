@@ -30,7 +30,7 @@ public class Tratamiento {
         System.out.println("La cartilla de vacunación del animal se encuentra en estado ");
         this.cartillavacunacion = sc.next();
 
-        System.out.println("La medicación del animal es: ");
+        System.out.println("La medicación del animal ess: ");
         this.medicacion = sc.next();
 
         System.out.println("número de días del animal en el refugio: );

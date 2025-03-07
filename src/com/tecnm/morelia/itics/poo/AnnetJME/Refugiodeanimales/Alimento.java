@@ -22,7 +22,7 @@ public class Alimento {
      * @return : 4(cadenas de texto)donde se describen los atributos.
      */
     public void mostrarAlimento(){
-        System.out.println("La marca de comida es: " + marca);
+        System.out.println("La marca de comida es de: " + marca);
         System.out.println("El costo del producto es= " +costo);
         System.out.println("La comida es para la especie = " +especie);
         System.out.println("La cantidad es = " + cantidad);

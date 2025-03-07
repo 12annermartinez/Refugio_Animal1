@@ -37,7 +37,7 @@ public class Animal {
     public void capturardatos(){
             //declarar mi clase scanner
             Scanner sc=new Scanner(System.in);
-            System.out.println("Dime el tipo de animal");
+            System.out.println("Dime el tipo de aanimal");
             this.tipo=sc.next();
 
             System.out.println("Dime el peso del animal en kilogramos: ");
