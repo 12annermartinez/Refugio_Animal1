@@ -26,9 +26,9 @@ public class Animal {
             this.adoptado = false;
         }
     public void mostrar() {
-            System.out.println("Tipo de animal: " + tipo);
+            System.out.println("Especie animal: " + tipo);
             System.out.println("Peso del animal en kilogramos: " + peso);
-            System.out.println("Raza del animal es: : " + raza);
+            System.out.println("La aza del animal es: : " + raza);
             System.out.println("Longitud del animal : " + tamano);
             System.out.println("Edad: " + edad);
             System.out.println("Nombre del animal: " + nombre);
@@ -37,22 +37,22 @@ public class Animal {
     public void capturardatos(){
             //declarar mi clase scanner
             Scanner sc=new Scanner(System.in);
-            System.out.println("Dime el tipo de aanimal");
+            System.out.println("Especie del animal: ");
             this.tipo=sc.next();
 
-            System.out.println("Dime el peso del animal en kilogramos: ");
+            System.out.println("Peso en kilogramos: ");
             this.peso=sc.nextInt();
 
-            System.out.println("Dime la raza del animal: ");
+            System.out.println("Raza del animal: ");
             this.raza=sc.next();
 
-            System.out.println("Dime el tamaño de la longitud del animal en centimetros: ");
+            System.out.println("Tamaño de la longitud del animal en centimetros: ");
             this.tamano=sc.nextDouble();
 
-            System.out.println("Dime el edad: ");
+            System.out.println("Edad del animal: ");
             this.edad=sc.nextInt();
 
-            System.out.println("Dime el nombre: ");
+            System.out.println("Nombre del animal: ");
             this.nombre=sc.next();
 
     }

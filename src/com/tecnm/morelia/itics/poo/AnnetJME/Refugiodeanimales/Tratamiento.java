@@ -33,7 +33,7 @@ public class Tratamiento {
         System.out.println("La medicación del animal ess: ");
         this.medicacion = sc.next();
 
-        System.out.println("número de días del animal en el refugio: );
+        System.out.println("número de días del animal en el refugio:" );
         this.historial = sc.next();
 
         System.out.println("El estado de salud se categoriza como: ");

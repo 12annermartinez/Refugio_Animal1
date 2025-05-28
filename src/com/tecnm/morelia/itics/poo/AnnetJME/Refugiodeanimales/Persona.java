@@ -7,11 +7,11 @@ import java.util.Scanner;
  * @version : 03/03/2025/A
  */
 public class Persona {
-    private  int solicitud;
+    private final int solicitud;
     private String identificacion;
     private String registro;
     private int edad;
-    private String nombrepe;
+    private final String nombrepe;
     private float telefono;
         public Persona(String identificacion, String registro, int edad, String nombrepe, int solicitud, String direccion, int telefono) {
             this.identificacion = identificacion;
@@ -43,17 +43,11 @@ public class Persona {
             this.telefono = sc.nextFloat();
         }
     public void adoptarAnimal(Animal animal) {
-        // Si el animal no ha sido adoptado y la persona no lo ha adoptado aún
-        if (!animal.adoptado) {
-            animal.adoptado = true;
-            animalesAdoptados.add(animal);
-            System.out.println(nombrepe + " ha adoptado a " + animal.nombrepe + " exitosamente.");
-        } else {
-            System.out.println(animal.nombre + " ya ha sido adoptado por alguien más.");
+
+    }
+        public void solicitarAdopcion() {
+
         }
-    }
-    }
-        public void solicitarAdopcion() {}
 
 }
 
