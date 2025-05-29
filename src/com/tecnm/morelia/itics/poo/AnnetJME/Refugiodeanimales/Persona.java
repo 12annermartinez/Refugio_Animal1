@@ -21,13 +21,13 @@ public class Persona {
         }
         public void capturardatos() {
             Scanner sc = new Scanner(System.in);
-            System.out.println("¿cuál es su identificacióon, adoptante o trabajadoo r: ");
+            System.out.println("¿cuál es su identificación, dni");
             this.identificacion = sc.nextLine();
 
             System.out.println("Su domicilio es: ");
             this.direccion = sc.nextLine();
 
-            System.out.println("La edad del adoptante es: ");
+            System.out.println("La edad de la persona es: ");
             this.edad = sc.nextInt();
 
             System.out.println("El número de su telefono es: ");

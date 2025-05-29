@@ -26,7 +26,7 @@ public class Espacio {
 
     public void agregarAnimales() {
         Scanner sc = new Scanner(System.in);
-        System.out.print("¿Cuántos animales deseas agregar?: ");
+        System.out.print("¿Cuántos animales deseas agregaral refugio?: ");
         int cantidad = sc.nextInt(); // Lee el número
         if (cantidad > 0) {
             numeroAnimales += cantidad;
@@ -38,7 +38,7 @@ public class Espacio {
 
     public void quitarAnimales() {
         Scanner sc = new Scanner(System.in);
-        System.out.print("¿Cuántos animales deseas quitar?: ");
+        System.out.print("¿Cuántos animales deseas quitar del refugio?: ");
         int cantidad = sc.nextInt();
         if (cantidad > 0 && cantidad <= numeroAnimales) {
             numeroAnimales -= cantidad;

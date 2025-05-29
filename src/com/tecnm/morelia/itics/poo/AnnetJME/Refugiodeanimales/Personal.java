@@ -12,6 +12,22 @@ public class Personal extends Persona { // Esta será una clase hija de Persona,
         this.fechaIngreso=fechaIngreso;
         this.habilitadoMedicación= habilitadoMedicación;
     }
+    public void capturardatos(){
+        super.capturardatos();
+        Scanner scanner= new Scanner(System.in);
+        System.out.println("El rol del personal es: ");
+        this.rol= scanner.nextLine();
+
+        System.out.println("El turno del personal es: ");
+        this.turno= scanner.nextLine();
+
+        System.out.println("La fecha en que ingresó a rabajar es: ");
+        this.fechaIngreso= scanner.nextLine();
+
+        System.out.println("Puede medicar a un animal: ");
+        this.habilitadoMedicación= scanner.nextBoolean();
+
+    }
     public void mostrar(){
         super.mostrar();
         System.out.println("El puesto del personal es: "+ rol);

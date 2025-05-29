@@ -5,12 +5,27 @@ public class Adoptante extends Persona {
     private boolean poseeOtroA;
     private int numAnimalesAdo;
     private boolean estadoAprobación;
-    public Adoptante(String tamanioVivienda,boolean poseeOtroA, int numAnimalesAdo, boolean estadoAprobación, String identificacion, String direccion, int edad, String nombrepe, int telefono){
+    public Adoptante(String tipoVivienda,boolean poseeOtroA, int numAnimalesAdo, boolean estadoAprobación, String identificacion, String direccion, int edad, String nombrepe, int telefono){
         super(identificacion, direccion, edad, nombrepe, telefono);
-        this.tipoVivienda= tamanioVivienda;
+        this.tipoVivienda= tipoVivienda;
         this.poseeOtroA=poseeOtroA;
         this.numAnimalesAdo= numAnimalesAdo;
         this.estadoAprobación= estadoAprobación;
+    }
+    public void capturardatos(){
+        super.capturardatos();
+        Scanner scanner= new Scanner(System.in);
+        System.out.println("El tipo de vivienda del adoptante es: ");
+        this.tipoVivienda= scanner.nextLine();
+
+        System.out.println("Posée otro animal: TRUE O FALSE");
+        this.poseeOtroA= scanner.nextBoolean();
+
+        System.out.println("¿cuántos  animales ha adoptado: ");
+        this.numAnimalesAdo= scanner.nextInt();
+
+        System.out.println("Su adopción se ha aprobado: TRUE O FALSE ");
+        this.estadoAprobación= scanner.nextBoolean();
     }
     public void mostrar(){
         super.mostrar();
@@ -23,8 +38,8 @@ public class Adoptante extends Persona {
         Scanner sc= new Scanner(System.in);
         Scanner scan=new Scanner(System.in);
         System.out.println("¿Desea adoptar un animal grande o pequeño? si es grande=1, si es pequeño=0");
-        System.out.println("Su casa es de tamaño grande o pequeño, 1 para grande, 0 para chica");
         int tamanioAnimal= sc.nextInt();
+        System.out.println("Su casa es de tamaño grande o pequeño, 1 para grande, 0 para chica");
         int tamanniovivienda= scan.nextInt();
         if(tamanioAnimal == 1){
             if(tamanniovivienda==1){
