@@ -13,7 +13,7 @@ public class Main {
         animal1.capturardatos();
         animal1.mostrar();
         System.out.println("SE MUESTRA INFORMACIÓN DE LA PERSONA");
-        Persona persona1= new Persona("adoptante", "datos personales", 18, "Annet Martínez Espinosa", 1234, "jorge orozco #9 uruapan", 45212);
+        Persona persona1= new Persona("adoptante", "jorge orozco #9 uruapan", 19, "Annet Martínez Espinosa", 123445212);
         persona1.capturardatos();
         persona1.mostrar();
         System.out.println("SE MUESTRA INFORMACIÓN DEL TRATAMIENTO DEL ANIMAL");
@@ -28,5 +28,10 @@ public class Main {
         espacio1.quitarAnimales();
         espacio1.contarAnimales();
         espacio1.limpiarEspacio();
+        System.out.println("SE MUESTRA INFORMACIÓN DEL PERSONAL");
+        Personal emp1= new Personal("veterinario", "Noche", "29 de mayo del 2025", true, "A234BC567", "Carretera Pátzcuaro Morelia, #112233", 25, "Fulanito López", 443123456);
+        emp1.mostrar();
+        emp1.cambiarTurno();
+        emp1.puedeMedicar();
     }
 }

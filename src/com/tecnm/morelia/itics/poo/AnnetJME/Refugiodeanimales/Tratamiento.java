@@ -28,16 +28,16 @@ public class Tratamiento {
     public void capturardatos() {
         Scanner sc = new Scanner(System.in);
         System.out.println("La cartilla de vacunación del animal se encuentra en estado ");
-        this.cartillavacunacion = sc.next();
+        this.cartillavacunacion = sc.nextLine();
 
         System.out.println("La medicación del animal ess: ");
-        this.medicacion = sc.next();
+        this.medicacion = sc.nextLine();
 
         System.out.println("número de días del animal en el refugio:" );
-        this.historial = sc.next();
+        this.historial = sc.nextLine();
 
         System.out.println("El estado de salud se categoriza como: ");
-        this.estadosalud = sc.next();
+        this.estadosalud = sc.nextLine();
     }
     void inyectaranimal(){
     }

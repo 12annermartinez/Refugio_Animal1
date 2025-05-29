@@ -7,34 +7,25 @@ import java.util.Scanner;
  * @version : 03/03/2025/A
  */
 public class Persona {
-    private final int solicitud;
     private String identificacion;
-    private String registro;
+    private String direccion;
     private int edad;
     private final String nombrepe;
     private float telefono;
-        public Persona(String identificacion, String registro, int edad, String nombrepe, int solicitud, String direccion, int telefono) {
+        public Persona(String identificacion, String direccion, int edad, String nombrepe, int telefono) {
             this.identificacion = identificacion;
-            this.registro = registro;
+            this.direccion=direccion;
             this.edad = edad;
             this.nombrepe = nombrepe;
-            this.solicitud = solicitud;
             this.telefono = telefono;
-        }
-        public void mostrar() {
-            System.out.println("identificación es: " + identificacion);
-            System.out.println("registro es: " + registro);
-            System.out.println("Edad de la persona es " + edad);
-            System.out.println("Nombre del dueño: : " + nombrepe);
-            System.out.println("teléfono: " +telefono);
         }
         public void capturardatos() {
             Scanner sc = new Scanner(System.in);
             System.out.println("¿cuál es su identificacióon, adoptante o trabajadoo r: ");
-            this.identificacion = sc.next();
+            this.identificacion = sc.nextLine();
 
-            System.out.println("El número de su registro es: ");
-            this.registro = sc.next();
+            System.out.println("Su domicilio es: ");
+            this.direccion = sc.nextLine();
 
             System.out.println("La edad del adoptante es: ");
             this.edad = sc.nextInt();
@@ -42,12 +33,12 @@ public class Persona {
             System.out.println("El número de su telefono es: ");
             this.telefono = sc.nextFloat();
         }
-    public void adoptarAnimal(Animal animal) {
-
+    public void mostrar() {
+        System.out.println("identificación es: " + identificacion);
+        System.out.println("La dirección de la persona es: " + direccion);
+        System.out.println("Edad de la persona es " + edad);
+        System.out.println("Nombre del dueño: : " + nombrepe);
+        System.out.println("teléfono: " +telefono);
     }
-        public void solicitarAdopcion() {
-
-        }
-
 }
 
