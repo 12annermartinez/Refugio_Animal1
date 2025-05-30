@@ -29,11 +29,10 @@ public class Main {
         espacio1.contarAnimales();
         espacio1.limpiarEspacio();
         System.out.println("SE MUESTRA INFORMACIÓN DEL PERSONAL");
-        Personal emp1 = new Personal("veterinario", "Noche", "29 de mayo del 2025", true, "A234BC567", "Carretera Pátzcuaro Morelia, #112233", 25, "Fulanito López", 443123456);
+        Personal emp1 = new Personal("veterinario", "Noche", "29 de mayo del 2025", "sí", "A234BC567", "Carretera Pátzcuaro Morelia, #112233", 25, "Fulanito López", 443123456);
         emp1.capturardatos();
         emp1.mostrar();
         emp1.cambiarTurno();
-        emp1.puedeMedicar();
         System.out.println("SE PRESENTA LA INFORMACIÓN DE ADOPTANTE");
         Adoptante adoptante1 = new Adoptante("Departamento", true, 2, true, "A2345FG", "CALLE 123 INTERSECCION 321", 19, "SUTANITO HERNANDEZ", 4521355);
         adoptante1.capturardatos();

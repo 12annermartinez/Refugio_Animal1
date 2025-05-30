@@ -4,8 +4,8 @@ public class Personal extends Persona { // Esta será una clase hija de Persona,
     private String rol;
     private String turno;
     private String fechaIngreso;
-    private boolean habilitadoMedicación;
-    public Personal(String rol, String turno, String fechaIngreso, boolean habilitadoMedicación, String identificacion, String direccion, int edad, String nombrepe, int telefono){
+    private String habilitadoMedicación;
+    public Personal(String rol, String turno, String fechaIngreso, String habilitadoMedicación, String identificacion, String direccion, int edad, String nombrepe, int telefono){
         super(identificacion, direccion, edad, nombrepe, telefono);
         this.rol=rol;
         this.turno=turno;
@@ -25,7 +25,7 @@ public class Personal extends Persona { // Esta será una clase hija de Persona,
         this.fechaIngreso= scanner.nextLine();
 
         System.out.println("Puede medicar a un animal: ");
-        this.habilitadoMedicación= scanner.nextBoolean();
+        this.habilitadoMedicación= scanner.nextLine();
 
     }
     public void mostrar(){
@@ -33,9 +33,6 @@ public class Personal extends Persona { // Esta será una clase hija de Persona,
         System.out.println("El puesto del personal es: "+ rol);
         System.out.println("El turno que ocupa es: "+ turno);
         System.out.println("Ingresó a trabajar desde el: "+ fechaIngreso);
-    }
-    public boolean puedeMedicar(){
-        return habilitadoMedicación;
     }
     public void cambiarTurno(){
         Scanner sc= new Scanner(System.in);
