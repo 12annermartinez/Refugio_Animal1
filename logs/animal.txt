@@ -1,0 +1,4 @@
+Nombre: hades
+Edad: 1
+Raza: naranja
+Peso: 4
