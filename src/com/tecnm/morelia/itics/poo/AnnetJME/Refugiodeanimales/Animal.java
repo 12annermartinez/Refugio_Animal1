@@ -1,19 +1,20 @@
 package com.tecnm.morelia.itics.poo.AnnetJME.Refugiodeanimales;
 import java.util.Scanner;
+import java.io.Serializable;
 /**
  * Esta clase, crea al Animal, elemento escencial para el funcionamiento de un refugio de animales, en ella se hablan de diversos tipos de valores.
  * Se le solicitan las usuario y se muestran de igual manera.
  * @autor : AnnetMartínez
  * @version : 03/03/2025/A
  */
-public class Animal {
-    private String tipo;
-    private int peso;
-    private String raza;
-    private double tamano;
-    private int edad;
-    private String nombre;
-    private boolean adoptado;
+public class Animal implements Serializable {
+    public String tipo;
+    public int peso;
+    public String raza;
+    public double tamano;
+    public int edad;
+    public String nombre;
+    public boolean adoptado;
     private com.tecnm.morelia.itics.poo.AnnetJME.Refugiodeanimales.Color color;
         public Animal(String tipo, int peso, String raza, double tamamo, int edad, String nombre, Color color){
             this.tipo = tipo;
